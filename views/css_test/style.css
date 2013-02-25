@@ -1,0 +1,350 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	background-color: #DDDEE1  ;/*#828989 #E8ECEC #989898 #787878 #F0F0F0*/
+	color: #303030;
+}
+.sep2 {
+	height: 2px;
+}
+.sep3 {
+	height: 3px;
+}
+.sep5 {
+	height: 5px;
+}
+.sep10 {
+	height: 10px;
+}
+.sep15 {
+	height: 15px;
+}
+.sep20 {
+	height: 20px;
+}
+.blank {
+	clear: left;
+	height: 0px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+a:hover {
+    color: #4d5256;
+    text-decoration: underline;
+}
+#logo a:visited ,#logo a:active,#logo a:link{
+    color: whiteSmoke;
+    text-decoration: none;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: #303030;
+}
+a.top:link, a.top:visited, a.top:active {
+    color: whiteSmoke;
+    text-decoration: none;
+    /*text-shadow: 0px 1px 0px #fff;*/
+    font-weight: 500;
+}
+a.top:hover {
+    color: #D8D8D8;
+    text-decoration: none;
+    /*text-shadow: 0px 1px 0px #fff;*/
+    font-weight: 500;
+}
+ul li {
+    list-style: square;
+    padding: 0px;
+    margin: 0px 0px 0px 1.2em;
+}
+.topWrapper {
+	background-color: #505050 /*#A7B0B4 #505050*/;
+	/*background-color: #303030;*/
+	height: 40px;
+	webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.top {
+	height: 40px;
+	width: 960px;
+	margin:  0px auto 0px auto;
+	color: whiteSmoke;
+	letter-spacing : 3px;
+}
+.logo {
+	font-weight: bold;
+	font-size: 28px;	
+}
+#navigation {
+	text-align:right;
+	margin-top: 13px;
+	float: right;
+	font-size: 14px;
+	line-height: 14px;
+}
+#navigation ul  {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#navigation ul li {
+	list-style: none;
+	float: left;
+	margin-left: 10px;
+}
+#mainWrapper {
+	background-image: url("/img/floor.png");
+}
+#main {
+	width: 960px;
+	margin: 0px auto 0px auto;
+	padding: 12px 0px 30px 0px;
+}
+
+#sidebar {
+	float: left;
+	width: 0px;
+	background-color: red;
+}
+
+#rightbar {
+	float: right;
+	width: 272px;
+	padding: 10px 0px 10px 10px;
+}
+
+#content {
+	margin: 0px 282px 0px 0px;
+	padding: 10px;
+}
+.headimg {
+	width: 47px;
+	height: 47px;
+}
+.border {
+	border-bottom: 1px dashed #B0B0B0;
+}
+.box {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+	-o-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+	background-color: whiteSmoke;
+	border: 2px solid whiteSmoke;
+}
+.box .cell {
+	padding: 10px;
+	font-size: 12px;
+	line-height: 16px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.box .inner {
+	padding: 10px;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.bookcover {
+	float: right;
+	/*margin-right:100px;*/
+	width: auto;
+	border: solid 1px;
+}
+.bookinfo{
+	margin-left: 0px;
+	color:#303030;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 2em;
+	clear: left;
+}
+.bookinfo span {
+	color: #989898;/*#A0A0A0 ;*/
+	padding: 2px;
+	background-color: #E0E0E0/* #9CA7A7 #505050 #5DB285* #FAEFE3*/;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+.bookinfo li {
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	list-style: square;
+}
+.booktitle {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	
+	-webkit-box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.15);
+	-o-box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.15);
+	box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.15);
+	
+	font-size: 1.5em;
+	padding: 5px;
+	background-color: #3366CC/*#336699 #505050*/;
+	color: whiteSmoke;
+	float: left;
+	
+}
+label {	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	
+	padding: 5px;
+	background-color: #5DB285/*#505050*/;
+	color: whiteSmoke;
+}
+.leftout {
+	margin-left:-15px;
+}
+.large-textarea {
+	overflow-y: auto;
+	width: 622px;
+	font-family: "Panic Sans", "Menlo", "DejaVu Sans Mono", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	border: 1px solid #ccc;
+	display: block;
+	height: 12em;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	line-height: 1.5em;
+	padding: 5px;
+}
+.page {
+	font-size: smaller;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.notecontent {
+	line-height: 1.8em;
+	color: black;
+	overflow: hidden;
+	word-break: break-word;
+	padding: 10px;
+	word-break: break-word;
+}
+
+.saying {
+	
+}
+.button {	
+	display: inline-block;
+	border: 0;
+	color: white;
+	background-color: #9CA7A7;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	overflow: hidden;
+	vertical-align: middle;
+	padding: 7px 20px;
+	line-height: 1;
+	text-align: center;
+	cursor: pointer;
+	
+	margin-top: -3px;
+}
+.button:hover {
+	background-color: #989898;
+}
+.line  ul{
+	margin: 0px 0px;
+	padding: 0px 0px;
+	padding-left: 10px; /*58px*/
+	list-style: none;	
+}
+.line ul li {
+	list-style: none;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+a.cloudtag {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	
+	padding: 5px;
+	background-color: #3399CC/*#3399FF #9CA7A7*/;
+	color: whiteSmoke;
+	cursor: pointer;
+	text-decoration: none;
+}
+a.cloudtag:hover {
+	background-color: #3366CC;
+}
+
+.latest ul ,.latest ul li{
+	margin :0px;
+	padding: 0px;
+	list-style: squre;
+	line-height: 2em;
+}
+.latest ul {
+	padding-left: 15px;
+}
+.tagPanel {
+	margin-left: 58px;
+}
+a.small-tag {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	font-weight: bold;
+	padding: 2px;
+	background-color:#C8C8C8 /*#B8B8B8 #9CA7A7*/;
+	color: whiteSmoke;
+	cursor: pointer;
+	text-decoration: none;
+}
+.login input {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-left:5px;
+	padding: 3px;
+	font-size: 14px;
+	border: 1px solid #CCC;
+	width: 320px;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+}
+#loginButton {
+	background-color:#3399CC;
+	margin-top:10px;
+}
+#loginButton:hover{
+	background-color: #3399FF;
+}
+
+#regButton {
+	background-color:#9CA7A7;
+	margin-left:80px;
+	margin-top: 0px;
+}
+#regButton:hover{
+	background-color: #989898;
+}
+.intro {
+	font-size: 14px;
+	clear: left;
+}
